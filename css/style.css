@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(250, 234, 197);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 'Verdana, sans-serif';
+    text-align: center;
+}
+
+button {
+    color: rgb(245, 239, 206);
+    border-color: rgb(241, 222, 112);
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(191, 113, 49);    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    background-color: rgb(244, 177, 123);
+    padding: 2px 16px;
+    margin: 20px 10px;
+}
+
+#cards {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
